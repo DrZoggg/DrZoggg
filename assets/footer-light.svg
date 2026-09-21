@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 190" role="img" aria-labelledby="title desc">
+  <title id="title">Decoding complexity into biomedical knowledge</title>
+  <desc id="desc">A complex scientific network converges into a small set of stable translational trajectories.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#F7F9FC"/>
+      <stop offset="0.62" stop-color="#FBFCFE"/>
+      <stop offset="1" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <linearGradient id="trajectory" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2D5798" stop-opacity=".28"/>
+      <stop offset=".58" stop-color="#347D8C" stop-opacity=".72"/>
+      <stop offset="1" stop-color="#665D97" stop-opacity=".38"/>
+    </linearGradient>
+    <radialGradient id="field" cx=".32" cy=".5" r=".48">
+      <stop offset="0" stop-color="#2D5798" stop-opacity=".085"/>
+      <stop offset="1" stop-color="#2D5798" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="frame"><rect x="1" y="1" width="1398" height="188" rx="18"/></clipPath>
+  </defs>
+  <style>
+    text{font-family:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,"Noto Sans",sans-serif}
+    .edge{animation:edge 17s ease-in-out infinite}
+    .edge2{animation:edge 21s 4s ease-in-out infinite}
+    .line{stroke-dasharray:4 13;animation:flow 20s linear infinite}
+    .node{animation:pulse 12s ease-in-out infinite}
+    .node2{animation:pulse 15s 4s ease-in-out infinite}
+    @keyframes edge{0%,100%{opacity:.20}50%{opacity:.54}}
+    @keyframes flow{to{stroke-dashoffset:-136}}
+    @keyframes pulse{0%,100%{opacity:.30}50%{opacity:.86}}
+    @media (prefers-reduced-motion:reduce){.edge,.edge2,.line,.node,.node2{animation:none!important}}
+    @media (max-width:720px){.network-label,.detail{display:none}.statement{transform-box:fill-box;transform-origin:center;transform:translateX(-175px) scale(1.25)}}
+  </style>
+
+  <g clip-path="url(#frame)">
+    <rect width="1400" height="190" fill="url(#bg)"/>
+    <rect width="820" height="190" fill="url(#field)"/>
+    <path d="M25 30H1375M25 160H1375" stroke="#667386" stroke-opacity=".09"/>
+
+    <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <g stroke="#2D5798" stroke-width="1">
+        <path class="edge" d="M61 93L117 49L170 82L225 43L278 76L337 48L392 87L452 57L510 92"/>
+        <path class="edge2" d="M74 126L128 104L183 132L241 96L300 126L356 100L417 130L474 108L522 92"/>
+        <path class="edge" d="M117 49L128 104M170 82L183 132M225 43L241 96M278 76L300 126M337 48L356 100M392 87L417 130M452 57L474 108"/>
+        <path class="edge2" d="M61 93L128 104L170 82L241 96L278 76L356 100L392 87L474 108L510 92"/>
+      </g>
+      <g stroke="#347D8C" stroke-opacity=".36">
+        <path d="M74 126L117 49L183 132L225 43L300 126L337 48L417 130L452 57L522 92"/>
+        <path d="M61 93L170 82L278 76L392 87L510 92"/>
+      </g>
+      <g fill="#347D8C" stroke="none">
+        <circle class="node" cx="61" cy="93" r="2.5"/><circle class="node2" cx="74" cy="126" r="2.1"/>
+        <circle class="node2" cx="117" cy="49" r="2.7"/><circle class="node" cx="128" cy="104" r="2.4"/>
+        <circle class="node" cx="170" cy="82" r="3"/><circle class="node2" cx="183" cy="132" r="2.1"/>
+        <circle class="node2" cx="225" cy="43" r="2.4"/><circle class="node" cx="241" cy="96" r="3"/>
+        <circle class="node" cx="278" cy="76" r="2.5"/><circle class="node2" cx="300" cy="126" r="2.2"/>
+        <circle class="node2" cx="337" cy="48" r="2.5"/><circle class="node" cx="356" cy="100" r="3"/>
+        <circle class="node" cx="392" cy="87" r="2.7"/><circle class="node2" cx="417" cy="130" r="2.2"/>
+        <circle class="node2" cx="452" cy="57" r="2.5"/><circle class="node" cx="474" cy="108" r="2.7"/>
+        <circle class="node" cx="510" cy="92" r="3.2"/><circle class="node2" cx="522" cy="92" r="2"/>
+      </g>
+
+      <path class="line" d="M522 92C570 92 594 76 634 76C675 76 684 71 726 71H1360" stroke="url(#trajectory)" stroke-width="1.2" opacity=".62"/>
+      <path class="line" d="M522 92C568 92 596 94 634 94C674 94 690 95 726 95H1360" stroke="url(#trajectory)" stroke-width="1.2" opacity=".72"/>
+      <path class="line" d="M522 92C570 92 594 112 634 112C675 112 684 119 726 119H1360" stroke="url(#trajectory)" stroke-width="1.2" opacity=".54"/>
+
+      <circle cx="551" cy="91" r="2" fill="#347D8C" opacity=".75">
+        <animateMotion dur="16s" repeatCount="indefinite" path="M0 0C48 -1 68 -16 104 -16C144 -16 164 -20 205 -20"/>
+      </circle>
+      <circle cx="566" cy="93" r="1.7" fill="#2D5798" opacity=".7">
+        <animateMotion dur="20s" begin="-7s" repeatCount="indefinite" path="M0 0C42 1 66 19 103 19C145 19 163 26 206 26"/>
+      </circle>
+    </g>
+
+    <g class="network-label">
+      <text x="54" y="27" fill="#6B7584" font-size="9" font-weight="600" letter-spacing="2">COMPLEXITY / CROSS-SCALE STATES</text>
+      <text x="484" y="154" fill="#687386" font-size="8.5" font-weight="600" letter-spacing="1.8">CONVERGENCE</text>
+    </g>
+
+    <g class="statement">
+      <rect x="704" y="43" width="555" height="96" rx="8" fill="#FBFCFE" fill-opacity=".91"/>
+      <text x="729" y="65" fill="#687386" font-size="9" font-weight="600" letter-spacing="2.2">SCIENTIFIC PROGRAM / CONTINUITY</text>
+      <text x="726" y="101" fill="#111827" font-size="23" font-weight="590" letter-spacing="2.1">DECODING COMPLEXITY INTO</text>
+      <text x="726" y="130" fill="#465366" font-size="23" font-weight="480" letter-spacing="2.1">BIOMEDICAL KNOWLEDGE.</text>
+      <text class="detail" x="1360" y="153" text-anchor="end" fill="#687386" font-size="8.5" font-weight="600" letter-spacing="1.6">DATA → MECHANISM → TRANSLATION</text>
+    </g>
+
+    <path d="M25 30V54M25 30H49M1375 30H1351M1375 30V54M25 160V136M25 160H49M1375 160H1351M1375 160V136" fill="none" stroke="#667386" stroke-opacity=".25"/>
+  </g>
+  <rect x="1" y="1" width="1398" height="188" rx="18" fill="none" stroke="#5C6675" stroke-opacity=".17"/>
+</svg>
