@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 340" role="img" aria-labelledby="title desc">
   <title id="title">Ge Zhang — AI for Science and Biomedical Knowledge Discovery</title>
-  <desc id="desc">An editorial scientific interface showing multimodal biomedical data converging through computational inference into mechanisms, biomarkers, and translation.</desc>
+  <desc id="desc">An editorial scientific identity showing multimodal data converging through computational inference into mechanisms and translation.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#070A10"/>
@@ -20,9 +20,6 @@
       <stop offset="0.5" stop-color="#4B8592" stop-opacity="0.62"/>
       <stop offset="1" stop-color="#6A64A1" stop-opacity="0.32"/>
     </linearGradient>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" fill="none" stroke="#8391A5" stroke-opacity="0.055" stroke-width="1"/>
-    </pattern>
     <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
       <feGaussianBlur stdDeviation="8"/>
     </filter>
@@ -43,28 +40,24 @@
     @keyframes breathe{0%,100%{transform:scale(.99);opacity:.58}50%{transform:scale(1.018);opacity:.82}}
     @keyframes drift{0%{transform:translateX(-7px)}100%{transform:translateX(8px)}}
     @media (prefers-reduced-motion:reduce){.flow,.flow-slow,.pulse,.pulse-late,.breathe,.drift{animation:none!important}}
-    @media (max-width:720px){.micro,.identity-kicker,.institution{display:none}.identity{transform-box:fill-box;transform-origin:center;transform:scale(1.2)}.position{font-size:25px}.discipline{font-size:18px}}
+    @media (max-width:720px){.micro,.institution{display:none}.identity{transform-box:fill-box;transform-origin:center;transform:scale(1.1)}.position{font-size:27px}.discipline{font-size:19px}}
   </style>
 
   <g clip-path="url(#frame)">
     <rect width="1400" height="340" fill="url(#bg)"/>
-    <rect width="1400" height="340" fill="url(#grid)"/>
     <rect width="760" height="340" fill="url(#fieldA)"/>
     <rect x="720" width="680" height="340" fill="url(#fieldB)"/>
     <ellipse class="drift" cx="397" cy="175" rx="178" ry="116" fill="#315A9E" opacity="0.055" filter="url(#soft)"/>
 
     <g class="micro" fill="none" stroke-linecap="round" stroke-linejoin="round">
-      <text x="54" y="38" fill="#8793A5" font-size="10" font-weight="600" letter-spacing="2.5">MULTISCALE INPUTS / 01</text>
+      <text x="54" y="52" fill="#9AA6B7" font-size="13" font-weight="600" letter-spacing="2.5">MULTIMODAL DATA</text>
 
       <g transform="translate(54 62)">
-        <rect width="76" height="43" rx="4" stroke="#3D67AC" stroke-opacity="0.34"/>
         <path d="M9 32L20 25L31 29L43 16L56 19L67 9" stroke="#4F8793" stroke-opacity="0.72" stroke-width="1.2"/>
         <g fill="#70A8B1">
           <circle cx="9" cy="32" r="1.8"/><circle cx="20" cy="25" r="1.8"/><circle cx="31" cy="29" r="1.8"/>
           <circle cx="43" cy="16" r="1.8"/><circle cx="56" cy="19" r="1.8"/><circle cx="67" cy="9" r="1.8"/>
         </g>
-        <text x="91" y="17" fill="#A6B0BF" font-size="11" font-weight="600" letter-spacing="1">CLINICAL</text>
-        <text x="91" y="33" fill="#667386" font-size="9" letter-spacing="1.6">PHENOTYPES</text>
       </g>
 
       <g transform="translate(54 124)">
@@ -75,8 +68,6 @@
           <rect x="0" y="30" width="6" height="6" opacity=".58"/><rect x="10" y="30" width="6" height="6" opacity=".38"/><rect x="20" y="30" width="6" height="6" opacity=".26"/><rect x="30" y="30" width="6" height="6" opacity=".64"/>
         </g>
         <path d="M48 3V35M55 3V35M62 3V35" stroke="#4F8793" stroke-opacity=".44"/>
-        <text x="91" y="16" fill="#A6B0BF" font-size="11" font-weight="600" letter-spacing="1">MULTI-OMICS</text>
-        <text x="91" y="32" fill="#667386" font-size="9" letter-spacing="1.6">MOLECULAR LAYERS</text>
       </g>
 
       <g transform="translate(54 186)">
@@ -88,28 +79,24 @@
           <circle cx="8" cy="23" r="2.4"/><circle cx="23" cy="10" r="2.4"/><circle cx="23" cy="32" r="2.4"/>
           <circle cx="39" cy="19" r="3"/><circle cx="55" cy="8" r="2.4"/><circle cx="68" cy="25" r="2.4"/><circle cx="45" cy="35" r="2.4"/>
         </g>
-        <text x="91" y="17" fill="#A6B0BF" font-size="11" font-weight="600" letter-spacing="1">SINGLE-CELL</text>
-        <text x="91" y="33" fill="#667386" font-size="9" letter-spacing="1.6">CELL STATES</text>
       </g>
 
       <g transform="translate(54 250)">
         <path d="M0 21C8 5 16 37 24 21S40 5 48 21S64 37 76 13" stroke="#4F8793" stroke-opacity=".72" stroke-width="1.25"/>
         <path d="M0 34H76" stroke="#3D67AC" stroke-opacity=".3"/>
         <path d="M9 34V27M22 34V30M35 34V25M48 34V29M61 34V21M73 34V26" stroke="#3D67AC" stroke-opacity=".55"/>
-        <text x="91" y="17" fill="#A6B0BF" font-size="11" font-weight="600" letter-spacing="1">COMPUTATIONAL</text>
-        <text x="91" y="33" fill="#667386" font-size="9" letter-spacing="1.6">SIGNALS</text>
       </g>
 
-      <path class="flow" d="M232 83C294 83 312 118 365 139" stroke="url(#lineFlow)" stroke-width="1.2" opacity=".64"/>
-      <path class="flow-slow" d="M232 146C291 146 319 151 367 160" stroke="url(#lineFlow)" stroke-width="1.2" opacity=".62"/>
-      <path class="flow" d="M232 207C298 207 318 193 367 181" stroke="url(#lineFlow)" stroke-width="1.2" opacity=".60"/>
-      <path class="flow-slow" d="M232 270C292 270 319 224 370 198" stroke="url(#lineFlow)" stroke-width="1.2" opacity=".58"/>
+      <path class="flow" d="M142 83C245 83 301 118 365 139" stroke="url(#lineFlow)" stroke-width="1.2" opacity=".56"/>
+      <path class="flow-slow" d="M132 146C241 146 306 151 367 160" stroke="url(#lineFlow)" stroke-width="1.2" opacity=".52"/>
+      <path class="flow" d="M142 207C246 207 308 193 367 181" stroke="url(#lineFlow)" stroke-width="1.2" opacity=".50"/>
+      <path class="flow-slow" d="M142 270C238 270 307 224 370 198" stroke="url(#lineFlow)" stroke-width="1.2" opacity=".48"/>
 
-      <circle cx="263" cy="89" r="2.1" fill="#67A2AD" opacity=".76">
-        <animateMotion dur="14s" repeatCount="indefinite" path="M0 0C42 -6 73 27 104 47"/>
+      <circle cx="195" cy="86" r="2.1" fill="#67A2AD" opacity=".72">
+        <animateMotion dur="14s" repeatCount="indefinite" path="M0 0C58 -3 112 27 170 50"/>
       </circle>
-      <circle cx="280" cy="207" r="1.8" fill="#426BB1" opacity=".68">
-        <animateMotion dur="18s" begin="-6s" repeatCount="indefinite" path="M0 0C36 0 55 -10 88 -25"/>
+      <circle cx="202" cy="207" r="1.8" fill="#426BB1" opacity=".64">
+        <animateMotion dur="18s" begin="-6s" repeatCount="indefinite" path="M0 0C58 0 104 -10 165 -25"/>
       </circle>
     </g>
 
@@ -130,51 +117,35 @@
     </g>
 
     <g class="micro">
-      <text x="353" y="286" fill="#667386" font-size="9" font-weight="600" letter-spacing="2">LATENT STATE / 02</text>
+      <text x="326" y="311" fill="#7F8B9C" font-size="10.5" font-weight="600" letter-spacing="1.7">LATENT / COMPUTATIONAL INFERENCE</text>
       <path d="M476 171C502 171 506 171 530 171" stroke="#6795A1" stroke-opacity=".5"/>
       <circle cx="530" cy="171" r="2.4" fill="#76AAB3" class="pulse"/>
     </g>
 
     <g class="identity">
-      <text class="identity-kicker" x="520" y="50" fill="#68768A" font-size="10" font-weight="600" letter-spacing="2.6">AI4S · SCIENTIST IDENTITY INTERFACE</text>
-      <text class="name" x="518" y="126" fill="#F3F6FA" font-size="68" font-weight="650" letter-spacing="7">GE ZHANG</text>
-      <text class="chinese" x="522" y="158" fill="#8F9BAD" font-size="22" font-weight="450" letter-spacing="5" font-family="&quot;Noto Sans CJK SC&quot;,&quot;Microsoft YaHei&quot;,&quot;PingFang SC&quot;,sans-serif">张格</text>
-      <rect x="520" y="179" width="456" height="1" fill="#315A9E" opacity=".72"/>
-      <text class="position" x="520" y="207" fill="#DCE4ED" font-size="21" font-weight="560" letter-spacing="1.5">AI FOR SCIENCE · BIOMEDICAL KNOWLEDGE DISCOVERY</text>
-      <text class="discipline" x="520" y="237" fill="#9CA8B9" font-size="15" font-weight="520" letter-spacing="2.7">SYSTEMS &amp; TRANSLATIONAL MEDICINE</text>
-      <text class="institution" x="520" y="270" fill="#6F7D90" font-size="12" font-weight="500" letter-spacing="1.5">CLINICIAN-SCIENTIST · ZHENGZHOU UNIVERSITY</text>
-      <g class="micro">
-        <text x="520" y="309" fill="#526075" font-size="9" font-weight="600" letter-spacing="1.55">MULTIMODAL DATA  →  COMPUTATIONAL INFERENCE  →  BIOMEDICAL KNOWLEDGE  →  TRANSLATION</text>
-      </g>
+      <text class="name" x="514" y="133" fill="#F3F6FA" font-size="88" font-weight="640" letter-spacing="7.5">GE ZHANG</text>
+      <text class="chinese" x="520" y="164" fill="#8F9BAD" font-size="20" font-weight="450" letter-spacing="5" font-family="&quot;Noto Sans CJK SC&quot;,&quot;Microsoft YaHei&quot;,&quot;PingFang SC&quot;,sans-serif">张格</text>
+      <rect x="520" y="184" width="558" height="1" fill="#315A9E" opacity=".72"/>
+      <text class="position" x="520" y="218" fill="#E6EBF2" font-size="24" font-weight="590" letter-spacing="1.35">AI FOR SCIENCE · BIOMEDICAL KNOWLEDGE DISCOVERY</text>
+      <text class="discipline" x="520" y="253" fill="#A7B1C0" font-size="17" font-weight="520" letter-spacing="2.6">SYSTEMS &amp; TRANSLATIONAL MEDICINE</text>
+      <text class="institution" x="520" y="286" fill="#6F7D90" font-size="12" font-weight="500" letter-spacing="1.5">CLINICIAN-SCIENTIST · ZHENGZHOU UNIVERSITY</text>
     </g>
 
     <g class="micro">
-      <text x="1160" y="50" fill="#8793A5" font-size="10" font-weight="600" letter-spacing="2.2">KNOWLEDGE OUTPUTS / 03</text>
-      <path class="flow" d="M1010 121C1063 121 1090 109 1137 109" fill="none" stroke="url(#lineFlow)" stroke-width="1.1" opacity=".58"/>
-      <path class="flow-slow" d="M1010 171C1068 171 1095 171 1137 171" fill="none" stroke="url(#lineFlow)" stroke-width="1.1" opacity=".55"/>
-      <path class="flow" d="M1010 221C1063 221 1090 233 1137 233" fill="none" stroke="url(#lineFlow)" stroke-width="1.1" opacity=".52"/>
-      <g transform="translate(1137 88)">
+      <path class="flow" d="M1065 104C1111 104 1144 104 1190 104" fill="none" stroke="url(#lineFlow)" stroke-width="1.1" opacity=".54"/>
+      <path class="flow-slow" d="M1092 245C1125 245 1153 245 1190 245" fill="none" stroke="url(#lineFlow)" stroke-width="1.1" opacity=".50"/>
+      <g transform="translate(1190 83)">
         <circle cx="0" cy="21" r="3" fill="#5B91A0" class="pulse"/>
-        <path d="M16 21H45" stroke="#4C729E" stroke-opacity=".5"/>
-        <text x="57" y="17" fill="#C6CFDB" font-size="12" font-weight="600" letter-spacing="1.2">MECHANISMS</text>
-        <text x="57" y="34" fill="#667386" font-size="9" letter-spacing="1.4">CAUSAL STRUCTURE</text>
+        <path d="M16 21H48" stroke="#4C729E" stroke-opacity=".46"/>
+        <text x="62" y="26" fill="#D0D7E1" font-size="14" font-weight="600" letter-spacing="1.5">MECHANISMS</text>
       </g>
-      <g transform="translate(1137 150)">
-        <circle cx="0" cy="21" r="3" fill="#4C70AF" class="pulse-late"/>
-        <path d="M16 21H45" stroke="#4C729E" stroke-opacity=".5"/>
-        <text x="57" y="17" fill="#C6CFDB" font-size="12" font-weight="600" letter-spacing="1.2">BIOMARKERS</text>
-        <text x="57" y="34" fill="#667386" font-size="9" letter-spacing="1.4">PRIORITIZED SIGNALS</text>
-      </g>
-      <g transform="translate(1137 212)">
+      <g transform="translate(1190 224)">
         <circle cx="0" cy="21" r="3" fill="#6A64A1" class="pulse"/>
-        <path d="M16 21H45" stroke="#4C729E" stroke-opacity=".5"/>
-        <text x="57" y="17" fill="#C6CFDB" font-size="12" font-weight="600" letter-spacing="1.2">TRANSLATION</text>
-        <text x="57" y="34" fill="#667386" font-size="9" letter-spacing="1.4">CLINICAL KNOWLEDGE</text>
+        <path d="M16 21H48" stroke="#4C729E" stroke-opacity=".46"/>
+        <text x="62" y="26" fill="#D0D7E1" font-size="14" font-weight="600" letter-spacing="1.5">TRANSLATION</text>
       </g>
     </g>
 
-    <path d="M28 312H1372" stroke="#8190A4" stroke-opacity=".12"/>
-    <path d="M28 28V62M28 28H62M1372 28H1338M1372 28V62M28 312V278M28 312H62M1372 312H1338M1372 312V278" fill="none" stroke="#8190A4" stroke-opacity=".28"/>
   </g>
   <rect x="1" y="1" width="1398" height="338" rx="22" fill="none" stroke="#8F9BAD" stroke-opacity="0.16"/>
 </svg>
